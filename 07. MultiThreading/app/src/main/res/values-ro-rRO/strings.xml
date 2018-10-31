@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiThreading</string>
+    <string name="thread">ata</string>
+    <string name="runnable">fuge</string>
+    <string name="asnctask">asincron</string>
+</resources>

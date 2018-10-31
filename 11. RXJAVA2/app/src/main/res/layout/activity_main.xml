@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvEmissions"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnMerge"
+        android:onClick="onStartMerge"
+        android:text="@string/startOnMerge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnConcat"
+        android:onClick="onStartConcat"
+        android:text="@string/start_on_concat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnConcatMap"
+        android:onClick="onStartConcatMap"
+        android:text="@string/start_on_concatmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnFlatMap"
+        android:onClick="onStartFlapMap"
+        android:text="@string/start_on_flap_map_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnFlatMapList"
+        android:onClick="onStartFlapMapList"
+        android:text="Start on flap mao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnFilterAndMap"
+        android:onClick="onStartFilterAndMap"
+        android:text="Start on filter and map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnRetry"
+        android:onClick="onStartRetry"
+        android:text="@string/on_start_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOnRetryWhen"
+        android:onClick="onStartRetryWhen"
+        android:text="Start on retry when"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

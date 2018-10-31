@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStaticBroadcast"
+        android:text="Static Broadcast"
+        android:onClick="sendBroadcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnStaticBroadcast2"
+        android:text="Static Broadcast2"
+        android:onClick="sendBroadcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnDynamicBroadcast"
+        android:text="Dynamic Broadcast2"
+        android:onClick="sendBroadcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDynamicBroadcast2"
+        android:text="My very cool Dynamic Broadcast2"
+        android:onClick="sendBroadcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStaticBroadcastBootCompleted"
+        android:text="Static boot completed"
+        android:onClick="sendBroadcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

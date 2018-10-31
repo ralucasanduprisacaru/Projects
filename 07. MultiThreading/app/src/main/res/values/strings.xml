@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiThreading</string>
+    <string name="thread">Thread</string>
+    <string name="runnable">Runnable</string>
+    <string name="asnctask">AsncTask</string>
+
+</resources>

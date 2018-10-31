@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/btnSendBroadcast"
+            android:text="Send Broadcast"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnSendActionViewBroadcast"
+            android:text="Send Action view broadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnSendLocalActionViewBroadcast"
+            android:text="Send Local action view broadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RXJAVA</string>
+    <string name="startOnMerge">Start on Merge</string>
+    <string name="start_on_concat">Start on Concat</string>
+    <string name="start_on_concatmap">Start on concatMap</string>
+    <string name="start_on_flatmap">Start on Flatmap</string>
+    <string name="on_start_retry">On Start Retry</string>
+    <string name="start_on_flap_map_list">Start on flap map list</string>
+</resources>

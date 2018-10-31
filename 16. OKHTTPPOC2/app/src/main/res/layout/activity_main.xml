@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:textAlignment="center"
+    android:text="Hey June"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/btnAddQueryParams"
+        android:onClick="addQueryParams"
+        android:text="Add Query Params"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnSendPost"
+        android:onClick="sendPostWithFormBody"
+        android:text="Send Post with form body "
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSendPostWithAuth"
+        android:onClick="sendPostWithAuth"
+        android:text="Send Post with auth "
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSendPostWithJson"
+        android:onClick="sendPostWithJson"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Send Post with json "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

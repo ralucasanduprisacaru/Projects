@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NumbersCalc</string>
+    <string name="sum">+</string>
+    <string name="difference">-</string>
+    <string name="multiplication">×</string>
+    <string name="division">÷</string>
+</resources>

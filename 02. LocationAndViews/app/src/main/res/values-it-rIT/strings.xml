@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocationAndViews</string>
+    <string name="title_activity_main">activita principale</string>
+    <string name="hello">Buon giorno</string>
+    <string name="do_magic">fare magie</string>
+    <string name="go_to_second">vai al secondo</string>
+    <string name="passing_second_activity">passa la seconda</string>
+    <string name="name">nome</string>
+    <string name="pass_person_to_second">passa la persone a la seconda</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/firstNumber"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/secondNumber"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llOperations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/llNumbers"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/sumButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text="@string/sum"
+            android:onClick="calculateSum"
+            />
+        <Button
+            android:id="@+id/diffButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text="@string/difference"
+            android:onClick="calcDiff"
+            />
+        <Button
+            android:id="@+id/multButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplication"
+            android:onClick="calcMultip"
+            />
+        <Button
+            android:id="@+id/divButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:text="@string/division"
+            android:onClick="calcDiv"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llOperations"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+
+            android:inputType="numberDecimal"
+            android:textFontWeight="20sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
