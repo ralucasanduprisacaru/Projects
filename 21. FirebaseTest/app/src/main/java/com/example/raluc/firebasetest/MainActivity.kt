@@ -66,7 +66,8 @@ class MainActivity : AppCompatActivity() {
                 .setAvailableProviders(
                     listOf(
                         AuthUI.IdpConfig.EmailBuilder().build(),
-                        AuthUI.IdpConfig.GoogleBuilder().build()
+                        AuthUI.IdpConfig.GoogleBuilder().build(),
+                        AuthUI.IdpConfig.FacebookBuilder().build()
                     )
                 )
                 .build(), RC_SIGN_IN
@@ -111,9 +112,9 @@ class MainActivity : AppCompatActivity() {
             }
 
 
-            override fun onDataChange(dataSnapShot: DataSnapshot) {
+            override fun onDataChange(dataSnapShots: DataSnapshot) {
                 messages.clear()
-                dataSnapShot.children.forEach { dataSnapShot ->
+                dataSnapShots.children.forEach { dataSnapShot ->
                     val message = dataSnapShot.getValue(Message::class.java)
                     message?.let {
                         messages.add(it)
@@ -122,6 +123,8 @@ class MainActivity : AppCompatActivity() {
                 firebaseAdapter.notifyDataSetChanged()
             }
         }
+
+        databaseReference.addValueEventListener(valueEventListener)
     }
 
     private fun removeReadListeners() {

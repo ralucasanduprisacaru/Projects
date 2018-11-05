@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirebaseTest</string>
+    <string name="facebook_application_id">2420074568219702</string>
 </resources>
