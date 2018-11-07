@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textInputLayout_width">276dp</dimen>
+    <dimen name="textInputLayout_height">49dp</dimen>
+    <dimen name="imageContainer_circleRadius">150dp</dimen>
+
+</resources>
