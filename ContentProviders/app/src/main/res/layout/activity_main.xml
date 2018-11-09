@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:padding="18dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.MainActivity">
@@ -61,11 +61,21 @@
 
     <Button
             android:id="@+id/btnInsert"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:text="Insert"
             android:textStyle="bold"
             android:textAlignment="center"
             android:onClick="insertContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnShowContacts"
+            android:textSize="18sp"
+            android:text="Display all contacts"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:onClick="displayContacts"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

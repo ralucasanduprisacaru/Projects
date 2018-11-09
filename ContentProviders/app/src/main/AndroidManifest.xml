@@ -16,10 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <provider
-                android:authorities="com.example.raluc.contentproviders.providers"
                 android:name=".providers.MyContentProvider"
+                android:authorities="com.example.raluc.contentproviders.providers"
                 android:exported="true"/>
+
+        <activity
+                android:name=".ui.ContactsActivity"
+                android:label="@string/title_activity_contacts"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

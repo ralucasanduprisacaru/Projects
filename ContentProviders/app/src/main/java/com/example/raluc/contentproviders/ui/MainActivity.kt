@@ -61,4 +61,10 @@ class MainActivity : AppCompatActivity() , LoaderManager.LoaderCallbacks<Cursor>
         )
         contentResolver.insert(MyContactProviderContract.MyContentProviderEntry.CONTENT_URI, contentValues)
     }
+
+    fun displayContacts(view: View){
+
+    }
+
+
 }
